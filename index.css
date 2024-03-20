@@ -18,3 +18,9 @@ h1 {
     display: flex;
     float: center;
 }
+
+p {
+    display: block;
+    width: 180px;
+    
+}
