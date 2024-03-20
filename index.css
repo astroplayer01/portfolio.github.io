@@ -19,8 +19,21 @@ h1 {
     float: center;
 }
 
-p {
+article {
     display: block;
-    width: 180px;
-    
+    width: 90%;
+    text-align: left;
+    margin: auto;
+}
+
+p {
+    line-height: 25px;
+}
+
+article h2 {
+    display: block;
+    height: 70px;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
