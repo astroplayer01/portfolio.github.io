@@ -13,7 +13,8 @@
 }
 
 h1 {
+    font-weight: bold;
     font-size: 5.2rem;
-    color: blue;
-
+    display: block;
+    float: center;
 }
