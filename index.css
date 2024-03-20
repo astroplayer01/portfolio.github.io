@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Slabo;
+    src: url(https://fonts.gstatic.com/s/slabo27px/v6/11hEGp_azEvXZUdSBzzRcKc.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: Slabo, sans-serif;
+    background-color: gray;
+    color: white;
+}
