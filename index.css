@@ -42,3 +42,25 @@ article h2 {
     margin-bottom: 20px;
     text-decoration: underline black;
 }
+
+header {
+    width: auto;
+}
+
+header #nav {
+    list-style: none;
+    display: inline-flex;
+
+}
+
+#nav li{
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+#nav a {
+    text-decoration: none;
+}
+
