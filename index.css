@@ -71,7 +71,7 @@ header #nav {
 }
 
 #nav a:active {
-    color: black;
+    color: gray;
 }
 
 #aboutme a {
