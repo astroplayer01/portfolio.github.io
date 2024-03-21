@@ -1,0 +1,146 @@
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h5 {
+    font-size: .75em;
+}
+
+header {
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+header img {
+    max-height: 50px;
+    min-height: 10px;
+    display: flex;
+    left: 3px;
+
+}
+
+header .breadcrumb li{
+    display: inline-block;
+    margin-right: 10px;
+    right: 3px;
+}
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url("img-mission-background.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 75px;
+    
+}
+
+#mission h2{
+    width: 100%;
+    align-content: center;
+    background-color: black;
+    margin-bottom: 0px;
+}
+
+#mission h4 {
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+
+.images {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-between;
+}
+
+figure {
+    display: inline-flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
+}
+
+figure figcaption {
+    margin-top: 10px;
+}
+
+#location {
+    background-image: url("img-locations-background.jpg");
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#location h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: hsla(0, 0%, 100%, 0);
+    width: 100%;
+}
+
+.container {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px 40px;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer p {
+    font-size: 0.7em;
+    position: absolute;
+    display: flex;
+    align-items: left;
+    margin: 20px 20px;
+    padding-bottom: 20px;
+}
